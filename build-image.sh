@@ -3,7 +3,7 @@
 
 ### settings
 arch=i386
-suite=${1:-bionic}
+suite=${1:-bionic} # change with your distro as in /etc/lsb-release
 chroot_dir="/var/chroot/$suite"
 apt_mirror='http://archive.ubuntu.com/ubuntu'
 docker_image="32bit/ubuntu:$suite"
